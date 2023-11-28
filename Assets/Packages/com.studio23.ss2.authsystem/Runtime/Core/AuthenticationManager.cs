@@ -1,7 +1,6 @@
 using Studio23.SS2.AuthSystem.Data;
 using UnityEngine;
 
-
 namespace Studio23.SS2.AuthSystem.Core
 {
     public class AuthenticationManager : MonoBehaviour
