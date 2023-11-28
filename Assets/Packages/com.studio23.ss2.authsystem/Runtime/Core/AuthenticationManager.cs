@@ -12,8 +12,15 @@ namespace Studio23.SS2.AuthSystem.Core
         /// </summary>
         public void Auth()
         {
-            _providerBase?.Authenticate();
-            Debug.Log("This is base auth");
+            if (_providerBase != null)
+            {
+                _providerBase.Authenticate();
+                Debug.Log("Authentication attempted.");
+            }
+            else
+            {
+                Debug.Log("Authentication provider is not set.");
+            }
         }
     }
 }
