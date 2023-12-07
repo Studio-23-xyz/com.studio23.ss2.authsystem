@@ -72,6 +72,12 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.GetUserData
   nameWithType: AuthenticationManager.GetUserData
+- uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
+  name: instance
+  href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html#Studio23_SS2_AuthSystem_Core_AuthenticationManager_instance
+  commentId: F:Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
+  fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
+  nameWithType: AuthenticationManager.instance
 - uid: Studio23.SS2.AuthSystem.Data
   name: Studio23.SS2.AuthSystem.Data
   href: api/Studio23.SS2.AuthSystem.Data.html
