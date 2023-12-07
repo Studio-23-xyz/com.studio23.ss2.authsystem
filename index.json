@@ -1,0 +1,57 @@
+{
+  "api/Global.UserData.html": {
+    "href": "api/Global.UserData.html",
+    "title": "Class UserData | |",
+    "keywords": "Class UserData Namespace Global public class UserData Inheritance object UserData Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Fields UserAvatar public Texture2D UserAvatar Field Value Texture2D UserID public string UserID Field Value string UserName public string UserName Field Value string UserNickname public string UserNickname Field Value string"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace | |",
+    "keywords": "Namespace Classes UserData"
+  },
+  "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html",
+    "title": "Class AuthenticationManager | |",
+    "keywords": "Class AuthenticationManager Namespace Studio23.SS2.AuthSystem.Core public class AuthenticationManager : MonoBehaviour Inheritance object AuthenticationManager Methods Auth() This method will check user authentication for validating Digital Rights Managemment for the project public void Auth() GetUserData() public UserData GetUserData() Returns UserData"
+  },
+  "api/Studio23.SS2.AuthSystem.Core.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Core.html",
+    "title": "Namespace Studio23.SS2.AuthSystem.Core | |",
+    "keywords": "Namespace Studio23.SS2.AuthSystem.Core Classes AuthenticationManager"
+  },
+  "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html",
+    "title": "Class ProviderBase | |",
+    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
+  },
+  "api/Studio23.SS2.AuthSystem.Data.html": {
+    "href": "api/Studio23.SS2.AuthSystem.Data.html",
+    "title": "Namespace Studio23.SS2.AuthSystem.Data | |",
+    "keywords": "Namespace Studio23.SS2.AuthSystem.Data Classes ProviderBase"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "| |",
+    "keywords": "This is the documentation for the Scripting APIs of this package."
+  },
+  "changelog/CHANGELOG.html": {
+    "href": "changelog/CHANGELOG.html",
+    "title": "Changelog | |",
+    "keywords": "Changelog [v0.1.0] - 2023-11-24 Added Base Package for the System [v2.0.0] - 2023-11-28 Updated with Steam authentication extension details, installation instructions, and usage guidelines. Added AuthenticationManager class with a method to authenticate via a provider"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "| |",
+    "keywords": "This page redirects to the manual."
+  },
+  "license/LICENSE.html": {
+    "href": "license/LICENSE.html",
+    "title": "| |",
+    "keywords": "MIT License Copyright (c) 2023 Studio-23 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  "manual/index.html": {
+    "href": "manual/index.html",
+    "title": "Authentication System | |",
+    "keywords": "Authentication System This is an extension package for Authentication System. Steam exposes multiple methods for authenticating a Steam user's identity and verifying ownership of an application. This system will provide validation for the steam and verify the identity and ownership of the following product. Table of Contents Installation Usage Installation Install via Git URL You can also use the \"Install from Git URL\" option from Unity Package Manager to install the package. https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.git#upm Usage This is a base package where it shares dependency to the other authentication packages. Download the required package you need for the publishing such as steam or xbox."
+  }
+}
