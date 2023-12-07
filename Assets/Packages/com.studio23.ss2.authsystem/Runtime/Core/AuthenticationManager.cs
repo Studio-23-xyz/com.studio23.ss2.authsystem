@@ -5,6 +5,14 @@ namespace Studio23.SS2.AuthSystem.Core
 {
     public class AuthenticationManager : MonoBehaviour
     {
+
+        public static AuthenticationManager instance;
+
+        void Start () { 
+            instance = this;
+            Auth();
+        }
+
         [SerializeField] private ProviderBase _providerBase;
 
         /// <summary>
