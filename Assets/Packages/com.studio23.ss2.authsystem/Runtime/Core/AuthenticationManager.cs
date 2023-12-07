@@ -22,6 +22,13 @@ namespace Studio23.SS2.AuthSystem.Core
                 Debug.Log("Authentication provider is not set.");
             }
         }
+
+        public UserData GetUserData()
+        {
+            return _providerBase.GetUserData();
+        }
+
+
     }
 }
 
