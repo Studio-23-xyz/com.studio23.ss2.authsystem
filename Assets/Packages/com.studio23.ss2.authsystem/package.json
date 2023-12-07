@@ -1,13 +1,13 @@
 {
   "name": "com.studio23.ss2.authsystem",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "displayName": "Authentication System",
   "description": "This system will be used to check user authentication for validating proper digital rights management (DRM) of the game.",
   "unity": "2022.3",
   "unityRelease": "10f1",
-  "documentationUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem",
-  "changelogUrl": "https://openupm.com/packages/com.studio23.ss2.authsystem",
-  "licensesUrl": "https://api.github.com/licenses/mit",
+  "documentationUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/manual/",
+  "changelogUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/changelog/CHANGELOG.html",
+  "licensesUrl": "https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/license/LICENSE.html",
   "scopedRegistries": [
     {
       "name": "Studio 23",
@@ -26,7 +26,7 @@
     "XBOX"
   ],
   "author": {
-    "name": "Studio23",
+    "name": "Studio 23",
     "email": "contact@studio-23.xyz",
     "url": "https://studio-23.xyz"
   }
