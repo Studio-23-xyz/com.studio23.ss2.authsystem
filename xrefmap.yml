@@ -40,6 +40,12 @@ references:
   commentId: N:Studio23.SS2.AuthSystem.Core
   fullName: Studio23.SS2.AuthSystem.Core
   nameWithType: Studio23.SS2.AuthSystem.Core
+- uid: Studio23.SS2.AuthSystem.Core.AuthEvent
+  name: AuthEvent
+  href: api/Studio23.SS2.AuthSystem.Core.AuthEvent.html
+  commentId: T:Studio23.SS2.AuthSystem.Core.AuthEvent
+  fullName: Studio23.SS2.AuthSystem.Core.AuthEvent
+  nameWithType: AuthEvent
 - uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager
   name: AuthenticationManager
   href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html
@@ -72,6 +78,12 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.GetUserData
   nameWithType: AuthenticationManager.GetUserData
+- uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthSuccess
+  name: OnAuthSuccess
+  href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html#Studio23_SS2_AuthSystem_Core_AuthenticationManager_OnAuthSuccess
+  commentId: F:Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthSuccess
+  fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthSuccess
+  nameWithType: AuthenticationManager.OnAuthSuccess
 - uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
   name: instance
   href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html#Studio23_SS2_AuthSystem_Core_AuthenticationManager_instance
@@ -116,3 +128,9 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.GetUserData
   nameWithType: ProviderBase.GetUserData
+- uid: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
+  name: OnAuthSuccess
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html#Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthSuccess
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
+  nameWithType: ProviderBase.OnAuthSuccess
