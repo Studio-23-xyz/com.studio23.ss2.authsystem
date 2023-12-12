@@ -11,7 +11,7 @@ namespace Studio23.SS2.AuthSystem.Core
 
         public AuthEvent OnAuthSuccess;
 
-        void Start () { 
+        void Awake () { 
             instance = this;
             Auth();
         }
