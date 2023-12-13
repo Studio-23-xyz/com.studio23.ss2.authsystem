@@ -10,11 +10,19 @@ namespace Studio23.SS2.AuthSystem.Core
         public static AuthenticationManager instance;
 
         public AuthEvent OnAuthSuccess;
+        [SerializeField] private bool AuthOnStart=true;
 
         void Awake () { 
             instance = this;
+            
+        }
+
+        private void Start()
+        {
+            if (!AuthOnStart) return;
             Auth();
         }
+
 
         [SerializeField] private ProviderBase _providerBase;
 
