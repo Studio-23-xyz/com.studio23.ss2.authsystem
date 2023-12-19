@@ -9,25 +9,20 @@
     "title": "Namespace | |",
     "keywords": "Namespace Classes UserData"
   },
-  "api/Studio23.SS2.AuthSystem.Core.AuthEvent.html": {
-    "href": "api/Studio23.SS2.AuthSystem.Core.AuthEvent.html",
-    "title": "Delegate AuthEvent | |",
-    "keywords": "Delegate AuthEvent Namespace Studio23.SS2.AuthSystem.Core public delegate void AuthEvent()"
-  },
   "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html": {
     "href": "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html",
     "title": "Class AuthenticationManager | |",
-    "keywords": "Class AuthenticationManager Namespace Studio23.SS2.AuthSystem.Core public class AuthenticationManager : MonoBehaviour Inheritance object AuthenticationManager Fields OnAuthSuccess public AuthEvent OnAuthSuccess Field Value AuthEvent instance public static AuthenticationManager instance Field Value AuthenticationManager Methods Auth() This method will check user authentication for validating Digital Rights Managemment for the project public void Auth() GetUserData() public UserData GetUserData() Returns UserData"
+    "keywords": "Class AuthenticationManager Namespace Studio23.SS2.AuthSystem.Core public class AuthenticationManager : MonoBehaviour Inheritance object AuthenticationManager Fields OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent instance public static AuthenticationManager instance Field Value AuthenticationManager Methods Auth() This method will check user authentication for validating Digital Rights Managemment for the project public void Auth() GetUserData() public UserData GetUserData() Returns UserData"
   },
   "api/Studio23.SS2.AuthSystem.Core.html": {
     "href": "api/Studio23.SS2.AuthSystem.Core.html",
     "title": "Namespace Studio23.SS2.AuthSystem.Core | |",
-    "keywords": "Namespace Studio23.SS2.AuthSystem.Core Classes AuthenticationManager Delegates AuthEvent"
+    "keywords": "Namespace Studio23.SS2.AuthSystem.Core Classes AuthenticationManager"
   },
   "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html",
     "title": "Class ProviderBase | |",
-    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Fields OnAuthSuccess public AuthEvent OnAuthSuccess Field Value AuthEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
+    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Fields OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
   },
   "api/Studio23.SS2.AuthSystem.Data.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.html",
@@ -42,7 +37,7 @@
   "changelog/CHANGELOG.html": {
     "href": "changelog/CHANGELOG.html",
     "title": "Changelog | |",
-    "keywords": "Changelog [v2.0.0] - 2023-11-28 Updated with Steam authentication extension details, installation instructions, and usage guidelines. Added AuthenticationManager class with a method to authenticate via a provider [v0.1.0] - 2023-11-24 Added Base Package for the System"
+    "keywords": "Changelog [v2.0.6] - 2023-12-19 Now initialization event is based on unity event for better editor access [v2.0.0] - 2023-11-28 Updated with Steam authentication extension details, installation instructions, and usage guidelines. Added AuthenticationManager class with a method to authenticate via a provider [v0.1.0] - 2023-11-24 Added Base Package for the System"
   },
   "index.html": {
     "href": "index.html",
