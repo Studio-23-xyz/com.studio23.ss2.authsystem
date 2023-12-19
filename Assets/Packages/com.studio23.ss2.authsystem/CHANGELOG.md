@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.0.6] - 2023-12-19
+
+- Now initialization event is based on unity event for better editor access
+
 ## [v2.0.0] - 2023-11-28
 
 - Updated with Steam authentication extension details, installation instructions, and usage guidelines.

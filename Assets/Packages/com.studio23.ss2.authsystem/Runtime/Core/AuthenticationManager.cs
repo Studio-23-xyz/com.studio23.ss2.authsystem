@@ -1,20 +1,20 @@
 using Studio23.SS2.AuthSystem.Data;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Studio23.SS2.AuthSystem.Core
 {
-    public delegate void AuthEvent();
+   
     public class AuthenticationManager : MonoBehaviour
     {
 
         public static AuthenticationManager instance;
 
-        public AuthEvent OnAuthSuccess;
+        public UnityEvent OnAuthSuccess;
         [SerializeField] private bool AuthOnStart=true;
 
         void Awake () { 
             instance = this;
-            
         }
 
         private void Start()
@@ -33,7 +33,7 @@ namespace Studio23.SS2.AuthSystem.Core
         {
             if (_providerBase != null)
             {
-                _providerBase.OnAuthSuccess += ()=> OnAuthSuccess?.Invoke();
+                _providerBase.OnAuthSuccess.AddListener(()=>OnAuthSuccess?.Invoke());
                 _providerBase.Authenticate();
                 Debug.Log("Authentication attempted.");
             }
