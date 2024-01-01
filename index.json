@@ -12,7 +12,7 @@
   "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html": {
     "href": "api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html",
     "title": "Class AuthenticationManager | |",
-    "keywords": "Class AuthenticationManager Namespace Studio23.SS2.AuthSystem.Core public class AuthenticationManager : MonoBehaviour Inheritance object AuthenticationManager Fields OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent instance public static AuthenticationManager instance Field Value AuthenticationManager Methods Auth() This method will check user authentication for validating Digital Rights Managemment for the project public void Auth() GetUserData() public UserData GetUserData() Returns UserData"
+    "keywords": "Class AuthenticationManager Namespace Studio23.SS2.AuthSystem.Core public class AuthenticationManager : MonoBehaviour Inheritance object AuthenticationManager Fields OnAuthFailed public UnityEvent OnAuthFailed Field Value UnityEvent OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent instance public static AuthenticationManager instance Field Value AuthenticationManager Methods Auth() This method will check user authentication for validating Digital Rights Management for the project public void Auth() GetUserData() public UserData GetUserData() Returns UserData"
   },
   "api/Studio23.SS2.AuthSystem.Core.html": {
     "href": "api/Studio23.SS2.AuthSystem.Core.html",
@@ -22,7 +22,7 @@
   "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html",
     "title": "Class ProviderBase | |",
-    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Fields OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
+    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Fields OnAuthFailed public UnityEvent OnAuthFailed Field Value UnityEvent OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
   },
   "api/Studio23.SS2.AuthSystem.Data.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.html",

@@ -72,6 +72,12 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.GetUserData
   nameWithType: AuthenticationManager.GetUserData
+- uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthFailed
+  name: OnAuthFailed
+  href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html#Studio23_SS2_AuthSystem_Core_AuthenticationManager_OnAuthFailed
+  commentId: F:Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthFailed
+  fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthFailed
+  nameWithType: AuthenticationManager.OnAuthFailed
 - uid: Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthSuccess
   name: OnAuthSuccess
   href: api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html#Studio23_SS2_AuthSystem_Core_AuthenticationManager_OnAuthSuccess
@@ -122,6 +128,12 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.GetUserData
   nameWithType: ProviderBase.GetUserData
+- uid: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
+  name: OnAuthFailed
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html#Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthFailed
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
+  nameWithType: ProviderBase.OnAuthFailed
 - uid: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
   name: OnAuthSuccess
   href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html#Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthSuccess
