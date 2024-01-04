@@ -22,7 +22,7 @@
   "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html",
     "title": "Class ProviderBase | |",
-    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : ScriptableObject Inheritance object ProviderBase Fields OnAuthFailed public UnityEvent OnAuthFailed Field Value UnityEvent OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
+    "keywords": "Class ProviderBase Namespace Studio23.SS2.AuthSystem.Data public abstract class ProviderBase : MonoBehaviour Inheritance object ProviderBase Fields OnAuthFailed public UnityEvent OnAuthFailed Field Value UnityEvent OnAuthSuccess public UnityEvent OnAuthSuccess Field Value UnityEvent Methods Authenticate() public abstract void Authenticate() GetUserData() public abstract UserData GetUserData() Returns UserData"
   },
   "api/Studio23.SS2.AuthSystem.Data.html": {
     "href": "api/Studio23.SS2.AuthSystem.Data.html",
