@@ -128,15 +128,3 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.GetUserData
   nameWithType: ProviderBase.GetUserData
-- uid: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
-  name: OnAuthFailed
-  href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html#Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthFailed
-  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
-  fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed
-  nameWithType: ProviderBase.OnAuthFailed
-- uid: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
-  name: OnAuthSuccess
-  href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html#Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthSuccess
-  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
-  fullName: Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess
-  nameWithType: ProviderBase.OnAuthSuccess

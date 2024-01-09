@@ -91,7 +91,7 @@
 
   <h1 id="Studio23_SS2_AuthSystem_Data_ProviderBase" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase" class="text-break">
     Class ProviderBase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L6"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L7"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -125,70 +125,6 @@
 
 
 
-  <h2 class="section" id="fields">Fields
-</h2>
-
-
-
-  <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthFailed" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthFailed">
-  OnAuthFailed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L9"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnAuthFailed</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
-
-  <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_OnAuthSuccess" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.OnAuthSuccess">
-  OnAuthSuccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L8"><i class="bi bi-code-slash"></i></a>
-  </h3>
-
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnAuthSuccess</code></pre>
-  </div>
-
-
-
-
-  <h4 class="section">Field Value</h4>
-  <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
-    <dd></dd>
-  </dl>
-
-
-
-
-
-
-
-
-
   <h2 class="section" id="methods">Methods
 </h2>
 
@@ -197,17 +133,22 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_Authenticate" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.Authenticate">
   Authenticate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract void Authenticate()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;int&gt; Authenticate()</code></pre>
   </div>
 
 
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -223,20 +164,20 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_GetUserData" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.GetUserData">
   GetUserData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L10"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract UserData GetUserData()</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract UniTask&lt;UserData&gt; GetUserData()</code></pre>
   </div>
 
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><a class="xref" href="Global.UserData.html">UserData</a></dt>
+    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="UserData.html">UserData</a>&gt;</dt>
     <dd></dd>
   </dl>
 
