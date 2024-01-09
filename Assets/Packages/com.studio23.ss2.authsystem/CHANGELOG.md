@@ -1,5 +1,10 @@
 # Changelog
 
+## [v3.0.0] - 2023-1-9
+
+- Authentication is now based on Async calls
+- Code Cleanup
+
 ## [v2.0.6] - 2023-12-19
 
 - Now initialization event is based on unity event for better editor access

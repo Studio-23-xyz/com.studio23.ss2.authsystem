@@ -1,4 +1,6 @@
+using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -19,10 +21,10 @@ namespace Studio23.SS2.AuthSystem.Core
             instance = this;
         }
 
-        private void Start()
+        private async void Start()
         {
             if (!AuthOnStart) return;
-            Auth();
+            await Auth();
         }
 
 
@@ -30,14 +32,25 @@ namespace Studio23.SS2.AuthSystem.Core
         /// <summary>
         /// This method will check  user authentication for validating Digital Rights Management for the project
         /// </summary>
-        public void Auth()
+        public async Task Auth()
         {
             if (_providerBase != null)
             {
-                _providerBase.OnAuthSuccess.AddListener(()=>OnAuthSuccess?.Invoke());
-                _providerBase.OnAuthFailed.AddListener(() => OnAuthFailed?.Invoke());
-                _providerBase.Authenticate();
                 Debug.Log("Authentication attempted.");
+                int result=await _providerBase.Authenticate();
+
+                if(result==0)
+                {
+                    OnAuthSuccess?.Invoke();
+                    Debug.Log("Authentication success.");
+                }
+                else
+                {
+                    OnAuthFailed?.Invoke();
+                    Debug.Log($"Authentication Failed ErrorCode:{result}.");
+                }
+
+              
             }
             else
             {
@@ -46,9 +59,9 @@ namespace Studio23.SS2.AuthSystem.Core
             }
         }
 
-        public UserData GetUserData()
+        public async UniTask<UserData> GetUserData()
         {
-            return _providerBase.GetUserData();
+            return await _providerBase.GetUserData();
         }
 
 
