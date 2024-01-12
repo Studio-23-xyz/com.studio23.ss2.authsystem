@@ -20,6 +20,15 @@
   "dependencies": {
     "com.cysharp.unitask": "2.5.0"
   },
+  
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "A small sample to demonstrate the abilities of the package.",
+      "path": "Samples~/Demo"
+    } 
+  ],  
+
   "keywords": [
     "AuthSystem",
     "Authentication",

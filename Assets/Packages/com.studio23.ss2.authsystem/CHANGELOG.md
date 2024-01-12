@@ -3,10 +3,20 @@
 
 ## [v4.0.0] - 2023-1-12
 
+### Breaking Changes Introduced
+
+### Added
+- AuthSystemInstaller.cs: New installer for the authentication system.
+- DefaultProvider.cs: Implementation of a default authentication provider.
+- ProviderFactory.cs: Factory class for creating authentication providers.
+- ProviderTypes.cs: Enumeration of provider types.
+- DontDestroyUtility.cs: Utility to prevent objects from being destroyed on load.
+- New samples
+
 ### Updated
-
-
-
+- AuthenticationManager.cs: Changes to the core authentication management logic.
+- ProviderBase.cs: Modifications to the base class for authentication providers.
+- UserData.cs: Updates to the user data structure.
 
 ## [v3.0.0] - 2023-1-9
 
