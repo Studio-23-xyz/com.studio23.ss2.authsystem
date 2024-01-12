@@ -1,5 +1,13 @@
 # Changelog
 
+
+## [v4.0.0] - 2023-1-12
+
+### Updated
+
+
+
+
 ## [v3.0.0] - 2023-1-9
 
 - Authentication is now based on Async calls
