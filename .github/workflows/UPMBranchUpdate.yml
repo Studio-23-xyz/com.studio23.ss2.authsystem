@@ -58,7 +58,10 @@ jobs:
   GitHub-Publish:
     needs: update-and-tag
     runs-on: ubuntu-latest
-
+    permissions:
+      packages: write
+      
+      
     steps:
       - uses: actions/checkout@v4
         with:
@@ -68,8 +71,7 @@ jobs:
         with:
           node-version: '20.x'
       
-      - name: Authenticate with GitHub Package Registry
-        run: echo "//npm.pkg.github.com/:_authToken=${{secrets.GITHUB_TOKEN}}" >> ~/.npmrc
-        
-      - name: Publish to GitHub Package Registry
-        run: npm publish --access public
+      - uses: FrontEndDev-org/publish-node-package-action@v1
+        with:
+          target: github
+   
