@@ -15,10 +15,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.UserData.yml",
+      "source_relative_path": "api/Global.DebugConsoleLogic.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.UserData.html"
+          "relative_path": "api/Global.DebugConsoleLogic.html"
         }
       },
       "version": ""
@@ -45,6 +45,36 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.DefaultProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.yml",
       "output": {
         ".html": {
@@ -65,10 +95,60 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Data.UserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Data.UserData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Studio23.SS2.AuthSystem.Data.yml",
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.AuthSystem.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Editor.AuthSystemInstaller.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Editor.AuthSystemInstaller.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Editor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Utilities.DontDestroyUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Utilities.DontDestroyUtility.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Utilities.html"
         }
       },
       "version": ""

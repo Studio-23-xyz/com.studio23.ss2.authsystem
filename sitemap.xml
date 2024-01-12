@@ -1,68 +1,116 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Global.UserData.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Global.DebugConsoleLogic.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Global.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Core.AuthenticationManager.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Core.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Data.ProviderBase.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Data.UserData.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Data.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Editor.AuthSystemInstaller.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Editor.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Utilities.DontDestroyUtility.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/Studio23.SS2.AuthSystem.Utilities.html</loc>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/api/index.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/changelog/CHANGELOG.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/index.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/license/LICENSE.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://studio-23-xyz.github.io/com.studio23.ss2.authsystem/manual/index.html</loc>
-    <lastmod>2024-01-11T09:55:20+00:00</lastmod>
+    <lastmod>2024-01-12T12:26:41+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

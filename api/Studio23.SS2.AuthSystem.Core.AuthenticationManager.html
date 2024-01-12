@@ -8,6 +8,7 @@
       <meta name="title" content="Class AuthenticationManager
  |  |  ">
       
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -91,7 +92,7 @@
 
   <h1 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager" class="text-break">
     Class AuthenticationManager
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L9"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -132,14 +133,14 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_OnAuthFailed" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthFailed">
   OnAuthFailed
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L23"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnAuthFailed</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnAuthFailed</code></pre>
   </div>
 
 
@@ -147,7 +148,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -162,14 +163,14 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_OnAuthSuccess" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.OnAuthSuccess">
   OnAuthSuccess
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L15"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L22"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent OnAuthSuccess</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;int&gt; OnAuthSuccess</code></pre>
   </div>
 
 
@@ -177,7 +178,7 @@
 
   <h4 class="section">Field Value</h4>
   <dl class="parameters">
-    <dt><span class="xref">UnityEvent</span></dt>
+    <dt><span class="xref">UnityEvent</span>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a>&gt;</dt>
     <dd></dd>
   </dl>
 
@@ -223,11 +224,11 @@
 </h2>
 
 
-  <a id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_Auth_" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.Auth*"></a>
+  <a id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_Authenticate_" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.Authenticate*"></a>
 
-  <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_Auth" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.Auth">
-  Auth()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L35"><i class="bi bi-code-slash"></i></a>
+  <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_Authenticate" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.Authenticate">
+  Authenticate()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L76"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"><p>This method will check  user authentication for validating Digital Rights Management for the project</p>
@@ -235,7 +236,7 @@
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task Auth()</code></pre>
+    <pre><code class="lang-csharp hljs">public Task Authenticate()</code></pre>
   </div>
 
 
@@ -255,14 +256,41 @@
 
 
 
+  <a id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_AuthenticateFromUI_" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.AuthenticateFromUI*"></a>
+
+  <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_AuthenticateFromUI" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.AuthenticateFromUI">
+  AuthenticateFromUI()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L68"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AuthenticateFromUI()</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <a id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_GetUserData_" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.GetUserData*"></a>
 
   <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_GetUserData" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.GetUserData">
   GetUserData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L62"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L105"><i class="bi bi-code-slash"></i></a>
   </h3>
 
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Gets the user related data</p>
+</div>
   <div class="markdown level1 conceptual"></div>
 
   <div class="codewrapper">
@@ -272,9 +300,35 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="UserData.html">UserData</a>&gt;</dt>
+    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="Studio23.SS2.AuthSystem.Data.UserData.html">UserData</a>&gt;</dt>
     <dd></dd>
   </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_SetProviderType_" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.SetProviderType*"></a>
+
+  <h3 id="Studio23_SS2_AuthSystem_Core_AuthenticationManager_SetProviderType" data-uid="Studio23.SS2.AuthSystem.Core.AuthenticationManager.SetProviderType">
+  SetProviderType()
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Core/AuthenticationManager.cs/#L34"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetProviderType()</code></pre>
+  </div>
+
+
 
 
 

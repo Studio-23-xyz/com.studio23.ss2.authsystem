@@ -8,6 +8,7 @@
       <meta name="title" content="Class ProviderBase
  |  |  ">
       
+      
       <link rel="icon" href="../favicon.ico">
       <link rel="stylesheet" href="../public/docfx.min.css">
       <link rel="stylesheet" href="../public/main.css">
@@ -91,7 +92,7 @@
 
   <h1 id="Studio23_SS2_AuthSystem_Data_ProviderBase" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase" class="text-break">
     Class ProviderBase
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L8"><i class="bi bi-code-slash"></i></a>
   </h1>
 
   <div class="facts text-secondary">
@@ -103,7 +104,7 @@
   <div class="markdown conceptual"></div>
 
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class ProviderBase : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class ProviderBase : ScriptableObject</code></pre>
   </div>
 
 
@@ -117,6 +118,81 @@
     </dd>
   </dl>
 
+
+  <dl class="typelist derived">
+    <dt>Derived</dt>
+    <dd>
+      <div><a class="xref" href="Studio23.SS2.AuthSystem.Core.DefaultProvider.html">DefaultProvider</a></div>
+    </dd>
+  </dl>
+
+
+
+
+
+
+
+  <h2 class="section" id="fields">Fields
+</h2>
+
+
+
+  <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase__providerType" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase._providerType">
+  _providerType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L11"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected ProviderTypes _providerType</code></pre>
+  </div>
+
+
+
+
+  <h4 class="section">Field Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Studio23.SS2.AuthSystem.Core.ProviderTypes.html">ProviderTypes</a></dt>
+    <dd></dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+  <h2 class="section" id="properties">Properties
+</h2>
+
+
+  <a id="Studio23_SS2_AuthSystem_Data_ProviderBase_ProviderType_" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.ProviderType*"></a>
+
+  <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_ProviderType" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.ProviderType">
+  ProviderType
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L13"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ProviderTypes ProviderType { get; }</code></pre>
+  </div>
+
+
+
+
+
+  <h4 class="section">Property Value</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="Studio23.SS2.AuthSystem.Core.ProviderTypes.html">ProviderTypes</a></dt>
+    <dd></dd>
+  </dl>
 
 
 
@@ -133,7 +209,7 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_Authenticate" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.Authenticate">
   Authenticate()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L9"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -164,7 +240,7 @@
 
   <h3 id="Studio23_SS2_AuthSystem_Data_ProviderBase_GetUserData" data-uid="Studio23.SS2.AuthSystem.Data.ProviderBase.GetUserData">
   GetUserData()
-  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L10"><i class="bi bi-code-slash"></i></a>
+  <a class="header-action link-secondary" title="View source" href="https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem/blob/main/Assets/Packages/com.studio23.ss2.authsystem/Runtime/Data/ProviderBase.cs/#L15"><i class="bi bi-code-slash"></i></a>
   </h3>
 
   <div class="markdown level1 summary"></div>
@@ -177,7 +253,7 @@
 
   <h4 class="section">Returns</h4>
   <dl class="parameters">
-    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="UserData.html">UserData</a>&gt;</dt>
+    <dt><span class="xref">UniTask</span>&lt;<a class="xref" href="Studio23.SS2.AuthSystem.Data.UserData.html">UserData</a>&gt;</dt>
     <dd></dd>
   </dl>
 
