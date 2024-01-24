@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "displayName": "Authentication System",
   "description": "This system will be used to check user authentication for validating proper digital rights management (DRM) of the game.",
   "unity": "2022.3",
