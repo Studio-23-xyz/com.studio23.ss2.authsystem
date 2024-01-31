@@ -4,41 +4,12 @@ references:
 - uid: Global
   name: ''
   href: api/Global.html
-- uid: Global.DebugConsoleLogic
-  name: DebugConsoleLogic
-  href: api/Global.DebugConsoleLogic.html
-  commentId: T:Global.DebugConsoleLogic
-  fullName: DebugConsoleLogic
-  nameWithType: DebugConsoleLogic
-- uid: Global.DebugConsoleLogic.ShowUserData
-  name: ShowUserData()
-  href: api/Global.DebugConsoleLogic.html#Global_DebugConsoleLogic_ShowUserData
-  commentId: M:Global.DebugConsoleLogic.ShowUserData
-  fullName: DebugConsoleLogic.ShowUserData()
-  nameWithType: DebugConsoleLogic.ShowUserData()
-- uid: Global.DebugConsoleLogic.ShowUserData*
-  name: ShowUserData
-  href: api/Global.DebugConsoleLogic.html#Global_DebugConsoleLogic_ShowUserData_
-  commentId: Overload:Global.DebugConsoleLogic.ShowUserData
-  isSpec: "True"
-  fullName: DebugConsoleLogic.ShowUserData
-  nameWithType: DebugConsoleLogic.ShowUserData
-- uid: Global.DebugConsoleLogic.UpdateText(System.String)
-  name: UpdateText(string)
-  href: api/Global.DebugConsoleLogic.html#Global_DebugConsoleLogic_UpdateText_System_String_
-  commentId: M:Global.DebugConsoleLogic.UpdateText(System.String)
-  name.vb: UpdateText(String)
-  fullName: DebugConsoleLogic.UpdateText(string)
-  fullName.vb: DebugConsoleLogic.UpdateText(String)
-  nameWithType: DebugConsoleLogic.UpdateText(string)
-  nameWithType.vb: DebugConsoleLogic.UpdateText(String)
-- uid: Global.DebugConsoleLogic.UpdateText*
-  name: UpdateText
-  href: api/Global.DebugConsoleLogic.html#Global_DebugConsoleLogic_UpdateText_
-  commentId: Overload:Global.DebugConsoleLogic.UpdateText
-  isSpec: "True"
-  fullName: DebugConsoleLogic.UpdateText
-  nameWithType: DebugConsoleLogic.UpdateText
+- uid: Global.DummyAuthProviderEditor
+  name: DummyAuthProviderEditor
+  href: api/Global.DummyAuthProviderEditor.html
+  commentId: T:Global.DummyAuthProviderEditor
+  fullName: DummyAuthProviderEditor
+  nameWithType: DummyAuthProviderEditor
 - uid: Studio23.SS2.AuthSystem.Core
   name: Studio23.SS2.AuthSystem.Core
   href: api/Studio23.SS2.AuthSystem.Core.html
@@ -121,73 +92,17 @@ references:
   commentId: F:Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
   fullName: Studio23.SS2.AuthSystem.Core.AuthenticationManager.instance
   nameWithType: AuthenticationManager.instance
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider
-  name: DefaultProvider
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html
-  commentId: T:Studio23.SS2.AuthSystem.Core.DefaultProvider
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider
-  nameWithType: DefaultProvider
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate
-  name: Authenticate()
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_Authenticate
-  commentId: M:Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate()
-  nameWithType: DefaultProvider.Authenticate()
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate*
-  name: Authenticate
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_Authenticate_
-  commentId: Overload:Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate
-  isSpec: "True"
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.Authenticate
-  nameWithType: DefaultProvider.Authenticate
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.DummyUser
-  name: DummyUser
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_DummyUser
-  commentId: F:Studio23.SS2.AuthSystem.Core.DefaultProvider.DummyUser
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.DummyUser
-  nameWithType: DefaultProvider.DummyUser
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.FailAuth
-  name: FailAuth
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_FailAuth
-  commentId: F:Studio23.SS2.AuthSystem.Core.DefaultProvider.FailAuth
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.FailAuth
-  nameWithType: DefaultProvider.FailAuth
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData
-  name: GetUserData()
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_GetUserData
-  commentId: M:Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData()
-  nameWithType: DefaultProvider.GetUserData()
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData*
-  name: GetUserData
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_GetUserData_
-  commentId: Overload:Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData
-  isSpec: "True"
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.GetUserData
-  nameWithType: DefaultProvider.GetUserData
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.SimulatedWaitTimeForLogin
-  name: SimulatedWaitTimeForLogin
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_SimulatedWaitTimeForLogin
-  commentId: F:Studio23.SS2.AuthSystem.Core.DefaultProvider.SimulatedWaitTimeForLogin
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.SimulatedWaitTimeForLogin
-  nameWithType: DefaultProvider.SimulatedWaitTimeForLogin
-- uid: Studio23.SS2.AuthSystem.Core.DefaultProvider.customReturnCode
-  name: customReturnCode
-  href: api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html#Studio23_SS2_AuthSystem_Core_DefaultProvider_customReturnCode
-  commentId: F:Studio23.SS2.AuthSystem.Core.DefaultProvider.customReturnCode
-  fullName: Studio23.SS2.AuthSystem.Core.DefaultProvider.customReturnCode
-  nameWithType: DefaultProvider.customReturnCode
 - uid: Studio23.SS2.AuthSystem.Core.ProviderFactory
   name: ProviderFactory
   href: api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html
   commentId: T:Studio23.SS2.AuthSystem.Core.ProviderFactory
   fullName: Studio23.SS2.AuthSystem.Core.ProviderFactory
   nameWithType: ProviderFactory
-- uid: Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Core.ProviderTypes)
+- uid: Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Data.ProviderTypes)
   name: GetProvider(ProviderTypes)
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html#Studio23_SS2_AuthSystem_Core_ProviderFactory_GetProvider_Studio23_SS2_AuthSystem_Core_ProviderTypes_
-  commentId: M:Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Core.ProviderTypes)
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Core.ProviderTypes)
+  href: api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html#Studio23_SS2_AuthSystem_Core_ProviderFactory_GetProvider_Studio23_SS2_AuthSystem_Data_ProviderTypes_
+  commentId: M:Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Data.ProviderTypes)
+  fullName: Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider(Studio23.SS2.AuthSystem.Data.ProviderTypes)
   nameWithType: ProviderFactory.GetProvider(ProviderTypes)
 - uid: Studio23.SS2.AuthSystem.Core.ProviderFactory.GetProvider*
   name: GetProvider
@@ -222,48 +137,68 @@ references:
   isSpec: "True"
   fullName: Studio23.SS2.AuthSystem.Core.ProviderFactory.RegisterProvider
   nameWithType: ProviderFactory.RegisterProvider
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes
-  name: ProviderTypes
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html
-  commentId: T:Studio23.SS2.AuthSystem.Core.ProviderTypes
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes
-  nameWithType: ProviderTypes
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes.Default
-  name: Default
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html#Studio23_SS2_AuthSystem_Core_ProviderTypes_Default
-  commentId: F:Studio23.SS2.AuthSystem.Core.ProviderTypes.Default
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes.Default
-  nameWithType: ProviderTypes.Default
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes.PlayStation
-  name: PlayStation
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html#Studio23_SS2_AuthSystem_Core_ProviderTypes_PlayStation
-  commentId: F:Studio23.SS2.AuthSystem.Core.ProviderTypes.PlayStation
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes.PlayStation
-  nameWithType: ProviderTypes.PlayStation
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes.Steam
-  name: Steam
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html#Studio23_SS2_AuthSystem_Core_ProviderTypes_Steam
-  commentId: F:Studio23.SS2.AuthSystem.Core.ProviderTypes.Steam
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes.Steam
-  nameWithType: ProviderTypes.Steam
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxGameCore
-  name: XboxGameCore
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html#Studio23_SS2_AuthSystem_Core_ProviderTypes_XboxGameCore
-  commentId: F:Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxGameCore
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxGameCore
-  nameWithType: ProviderTypes.XboxGameCore
-- uid: Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxPc
-  name: XboxPc
-  href: api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html#Studio23_SS2_AuthSystem_Core_ProviderTypes_XboxPc
-  commentId: F:Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxPc
-  fullName: Studio23.SS2.AuthSystem.Core.ProviderTypes.XboxPc
-  nameWithType: ProviderTypes.XboxPc
 - uid: Studio23.SS2.AuthSystem.Data
   name: Studio23.SS2.AuthSystem.Data
   href: api/Studio23.SS2.AuthSystem.Data.html
   commentId: N:Studio23.SS2.AuthSystem.Data
   fullName: Studio23.SS2.AuthSystem.Data
   nameWithType: Studio23.SS2.AuthSystem.Data
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider
+  name: DummyAuthProvider
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html
+  commentId: T:Studio23.SS2.AuthSystem.Data.DummyAuthProvider
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider
+  nameWithType: DummyAuthProvider
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate
+  name: Authenticate()
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_Authenticate
+  commentId: M:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate()
+  nameWithType: DummyAuthProvider.Authenticate()
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate*
+  name: Authenticate
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_Authenticate_
+  commentId: Overload:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate
+  isSpec: "True"
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.Authenticate
+  nameWithType: DummyAuthProvider.Authenticate
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.DummyUser
+  name: DummyUser
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_DummyUser
+  commentId: F:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.DummyUser
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.DummyUser
+  nameWithType: DummyAuthProvider.DummyUser
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.FailAuth
+  name: FailAuth
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_FailAuth
+  commentId: F:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.FailAuth
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.FailAuth
+  nameWithType: DummyAuthProvider.FailAuth
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData
+  name: GetUserData()
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_GetUserData
+  commentId: M:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData()
+  nameWithType: DummyAuthProvider.GetUserData()
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData*
+  name: GetUserData
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_GetUserData_
+  commentId: Overload:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData
+  isSpec: "True"
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.GetUserData
+  nameWithType: DummyAuthProvider.GetUserData
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.SimulatedWaitTimeForLogin
+  name: SimulatedWaitTimeForLogin
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_SimulatedWaitTimeForLogin
+  commentId: F:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.SimulatedWaitTimeForLogin
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.SimulatedWaitTimeForLogin
+  nameWithType: DummyAuthProvider.SimulatedWaitTimeForLogin
+- uid: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.customReturnCode
+  name: customReturnCode
+  href: api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html#Studio23_SS2_AuthSystem_Data_DummyAuthProvider_customReturnCode
+  commentId: F:Studio23.SS2.AuthSystem.Data.DummyAuthProvider.customReturnCode
+  fullName: Studio23.SS2.AuthSystem.Data.DummyAuthProvider.customReturnCode
+  nameWithType: DummyAuthProvider.customReturnCode
 - uid: Studio23.SS2.AuthSystem.Data.ProviderBase
   name: ProviderBase
   href: api/Studio23.SS2.AuthSystem.Data.ProviderBase.html
@@ -315,6 +250,42 @@ references:
   commentId: F:Studio23.SS2.AuthSystem.Data.ProviderBase._providerType
   fullName: Studio23.SS2.AuthSystem.Data.ProviderBase._providerType
   nameWithType: ProviderBase._providerType
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes
+  name: ProviderTypes
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html
+  commentId: T:Studio23.SS2.AuthSystem.Data.ProviderTypes
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes
+  nameWithType: ProviderTypes
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes.Default
+  name: Default
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html#Studio23_SS2_AuthSystem_Data_ProviderTypes_Default
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderTypes.Default
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes.Default
+  nameWithType: ProviderTypes.Default
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes.PlayStation
+  name: PlayStation
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html#Studio23_SS2_AuthSystem_Data_ProviderTypes_PlayStation
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderTypes.PlayStation
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes.PlayStation
+  nameWithType: ProviderTypes.PlayStation
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes.Steam
+  name: Steam
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html#Studio23_SS2_AuthSystem_Data_ProviderTypes_Steam
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderTypes.Steam
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes.Steam
+  nameWithType: ProviderTypes.Steam
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxGameCore
+  name: XboxGameCore
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html#Studio23_SS2_AuthSystem_Data_ProviderTypes_XboxGameCore
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxGameCore
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxGameCore
+  nameWithType: ProviderTypes.XboxGameCore
+- uid: Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxPc
+  name: XboxPc
+  href: api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html#Studio23_SS2_AuthSystem_Data_ProviderTypes_XboxPc
+  commentId: F:Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxPc
+  fullName: Studio23.SS2.AuthSystem.Data.ProviderTypes.XboxPc
+  nameWithType: ProviderTypes.XboxPc
 - uid: Studio23.SS2.AuthSystem.Data.UserData
   name: UserData
   href: api/Studio23.SS2.AuthSystem.Data.UserData.html
@@ -351,6 +322,25 @@ references:
   commentId: N:Studio23.SS2.AuthSystem.Editor
   fullName: Studio23.SS2.AuthSystem.Editor
   nameWithType: Studio23.SS2.AuthSystem.Editor
+- uid: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools
+  name: AuthSystemDebugTools
+  href: api/Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.html
+  commentId: T:Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools
+  fullName: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools
+  nameWithType: AuthSystemDebugTools
+- uid: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.html#Studio23_SS2_AuthSystem_Editor_AuthSystemDebugTools_OnInspectorGUI
+  commentId: M:Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI
+  fullName: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI()
+  nameWithType: AuthSystemDebugTools.OnInspectorGUI()
+- uid: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.html#Studio23_SS2_AuthSystem_Editor_AuthSystemDebugTools_OnInspectorGUI_
+  commentId: Overload:Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI
+  isSpec: "True"
+  fullName: Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.OnInspectorGUI
+  nameWithType: AuthSystemDebugTools.OnInspectorGUI
 - uid: Studio23.SS2.AuthSystem.Editor.AuthSystemInstaller
   name: AuthSystemInstaller
   href: api/Studio23.SS2.AuthSystem.Editor.AuthSystemInstaller.html

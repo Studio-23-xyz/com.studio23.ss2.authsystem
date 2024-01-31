@@ -100,8 +100,29 @@
 <p>You can also use the &quot;Install from Git URL&quot; option from Unity Package Manager to install the package.</p>
 <pre><code>https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.git#upm
 </code></pre>
+<h3 id="package-manager">Package Manager</h3>
+<ol>
+<li>open Edit/Project Settings/Package Manager</li>
+<li>add a new Scoped Registry (or edit the existing OpenUPM entry)</li>
+</ol>
+<pre><code>Name 	package.openupm.com
+URL 	 https://package.openupm.com
+Scope(s) com.cysharp.unitask
+			com.studio23.ss2.authsystem
+</code></pre>
+<ol start="3">
+<li>click Save or Apply</li>
+<li>open Window/Package Manager</li>
+<li>click +</li>
+<li>select Add package by name... or Add package from git URL...</li>
+<li>paste com.studio23.ss2.authsystem into name</li>
+<li>click Add</li>
+</ol>
 <h2 id="usage">Usage</h2>
+<p>Fromt top toolbar Studio-23&gt;AuthSystem&gt;Install</p>
+<blockquote>
 <p>This is a base package where it shares dependency to the other authentication packages. Download the required package you need for the publishing such as steam or xbox.</p>
+</blockquote>
 
 </article>
 

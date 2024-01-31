@@ -15,10 +15,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.DebugConsoleLogic.yml",
+      "source_relative_path": "api/Global.DummyAuthProviderEditor.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.DebugConsoleLogic.html"
+          "relative_path": "api/Global.DummyAuthProviderEditor.html"
         }
       },
       "version": ""
@@ -45,30 +45,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.DefaultProvider.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Studio23.SS2.AuthSystem.Core.DefaultProvider.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderFactory.yml",
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderFactory.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderTypes.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Studio23.SS2.AuthSystem.Core.ProviderTypes.html"
         }
       },
       "version": ""
@@ -85,10 +65,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Data.DummyAuthProvider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.yml",
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.AuthSystem.Data.ProviderBase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Data.ProviderTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Data.ProviderTypes.html"
         }
       },
       "version": ""
@@ -109,6 +109,16 @@
       "output": {
         ".html": {
           "relative_path": "api/Studio23.SS2.AuthSystem.Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Studio23.SS2.AuthSystem.Editor.AuthSystemDebugTools.html"
         }
       },
       "version": ""
@@ -167,11 +177,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -190,11 +200,11 @@
       "type": "Toc",
       "source_relative_path": "changelog/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "changelog/toc.json"
-        },
         ".html": {
           "relative_path": "changelog/toc.html"
+        },
+        ".json": {
+          "relative_path": "changelog/toc.json"
         }
       },
       "version": ""
@@ -223,11 +233,11 @@
       "type": "Toc",
       "source_relative_path": "license/toc.md",
       "output": {
-        ".json": {
-          "relative_path": "license/toc.json"
-        },
         ".html": {
           "relative_path": "license/toc.html"
+        },
+        ".json": {
+          "relative_path": "license/toc.json"
         }
       },
       "version": ""
@@ -246,11 +256,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
