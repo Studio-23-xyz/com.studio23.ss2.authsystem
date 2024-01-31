@@ -1,5 +1,5 @@
 
-namespace Studio23.SS2.AuthSystem.Core
+namespace Studio23.SS2.AuthSystem.Data
 {
     public enum ProviderTypes
     {

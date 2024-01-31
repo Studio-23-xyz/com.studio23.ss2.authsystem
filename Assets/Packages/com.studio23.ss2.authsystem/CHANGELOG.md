@@ -1,5 +1,11 @@
 # Changelog
 
+## [v4.0.2] - 2023-1-31
+
+### Updated
+- Improved Editor Tools
+- New Sample Scene
+- Code Refactored
 
 ## [v4.0.0] - 2023-1-12
 

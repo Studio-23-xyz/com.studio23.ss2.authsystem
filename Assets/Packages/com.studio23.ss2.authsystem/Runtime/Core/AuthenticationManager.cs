@@ -73,7 +73,7 @@ namespace Studio23.SS2.AuthSystem.Core
         /// <summary>
         /// This method will check  user authentication for validating Digital Rights Management for the project
         /// </summary>
-        public async Task Authenticate()
+        public async UniTask Authenticate()
         {
             if (_providerBase == null)
             {

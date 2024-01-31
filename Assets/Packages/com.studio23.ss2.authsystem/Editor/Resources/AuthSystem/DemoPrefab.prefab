@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8501710497851111843}
   - component: {fileID: 7022659154866594499}
+  - component: {fileID: 3674423359933408213}
+  - component: {fileID: 4159212213194678521}
   m_Layer: 0
   m_Name: DemoPrefab
   m_TagString: Untagged
@@ -44,11 +46,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e31171f9b9741646bec7af11a39587b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AuthOnStart: 1
+  _providerType: 0
+  _providerBase: {fileID: 0}
   OnAuthSuccess:
     m_PersistentCalls:
       m_Calls: []
   OnAuthFailed:
     m_PersistentCalls:
       m_Calls: []
-  AuthOnStart: 1
-  _providerBase: {fileID: 0}
+--- !u!114 &3674423359933408213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520930742466568804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1605ff79e1b173d48b2ea1a5279404fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4159212213194678521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520930742466568804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed534295706f74f41a676e7fab002a33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

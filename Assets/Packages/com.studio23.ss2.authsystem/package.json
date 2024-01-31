@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "displayName": "Authentication System",
   "description": "This system will be used to check user authentication for validating proper digital rights management (DRM) of the game.",
   "unity": "2022.3",
@@ -20,14 +20,15 @@
   "dependencies": {
     "com.cysharp.unitask": "2.5.0"
   },
-  
+
   "samples": [
     {
-      "displayName": "Demo",
+      "displayName": "Example",
       "description": "A small sample to demonstrate the abilities of the package.",
       "path": "Samples~/Demo"
-    } 
-  ],  
+    }
+  ],
+
 
   "keywords": [
     "AuthSystem",
