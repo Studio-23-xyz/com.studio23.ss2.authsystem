@@ -1,6 +1,5 @@
 using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -10,13 +9,12 @@ namespace Studio23.SS2.AuthSystem.Core
     public class AuthenticationManager : MonoBehaviour
     {
 
-        public static AuthenticationManager instance;
+        public static AuthenticationManager Instance;
 
         [SerializeField] private bool AuthOnStart = true;
 
         private ProviderFactory _providerFactory;
-        [SerializeField] private ProviderTypes _providerType;
-        [SerializeField] private ProviderBase _providerBase;
+        [SerializeField] private AuthProviderBase _authProviderBase;
 
         [Header("Events")]
         public UnityEvent<int> OnAuthSuccess;
@@ -26,36 +24,21 @@ namespace Studio23.SS2.AuthSystem.Core
         private bool _isAuthenticated;
         void Awake()
         {
-            instance = this;
+            Instance = this;
             _providerFactory = GetComponent<ProviderFactory>();
         }
 
 
-        public void SetProviderType()
-        {
-            _providerType = ProviderTypes.Default;
-#if UNITY_GAMECORE
-            _providerType = ProviderTypes.XboxGameCore;
-#endif
 
-#if MICROSOFT_GAME_CORE
-            _providerType = ProviderTypes.XboxPc;
-#endif
-
-#if STEAMWORKS_ENABLED
-            _providerType = ProviderTypes.Steam;
-#endif
-
-        }
 
         private async void Start()
         {
-            SetProviderType();
+
             _providerFactory.Initialize();
-            _providerBase = _providerFactory.GetProvider(_providerType);
-            if (_providerBase == null)
+            _authProviderBase = _providerFactory.GetProvider();
+            if (_authProviderBase == null)
             {
-                Debug.LogWarning("Authentication provider is not set.");
+                Debug.LogWarning("Authentication authProvider is not set. Did you forget to create a provider? Studio-23>AuthSystem>Providers");
                 return;
             }
 
@@ -75,26 +58,26 @@ namespace Studio23.SS2.AuthSystem.Core
         /// </summary>
         public async UniTask Authenticate()
         {
-            if (_providerBase == null)
+            if (_authProviderBase == null)
             {
-                Debug.LogError("Provider was null. Did you forget to create a provider?");
-         
+                Debug.LogError("Provider was null. Did you forget to create a authProvider?");
+                return;
             }
 
-            Debug.Log("Authentication attempted.");
-            int result = await _providerBase.Authenticate();
+            Debug.Log($"{_authProviderBase.name}: Authentication attempted.");
+            int result = await _authProviderBase.Authenticate();
 
             if (result == 0)
             {
                 OnAuthSuccess?.Invoke(result);
                 _isAuthenticated = true;
-                Debug.Log("Authentication success.");
+                Debug.Log($"{_authProviderBase.name}: Authentication success.");
             }
             else
             {
                 _isAuthenticated = false;
                 OnAuthFailed?.Invoke(result);
-                Debug.Log($"Authentication Failed ErrorCode:{result}.");
+                Debug.Log($"{_authProviderBase.name}: Authentication Failed ErrorCode:{result}.");
             }
 
         }
@@ -106,10 +89,10 @@ namespace Studio23.SS2.AuthSystem.Core
         {
             if(!_isAuthenticated)
             {
-                Debug.LogError($"Must Authenticate First");
+                Debug.LogError($"{_authProviderBase.name}: Must Authenticate First");
                 return null;
             }
-            return await _providerBase.GetUserData();
+            return await _authProviderBase.GetUserData();
         }
 
 

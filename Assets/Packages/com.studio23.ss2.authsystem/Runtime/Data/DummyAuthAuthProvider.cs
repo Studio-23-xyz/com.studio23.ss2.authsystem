@@ -4,8 +4,8 @@ using UnityEngine;
 
 namespace Studio23.SS2.AuthSystem.Data
 {
-    [CreateAssetMenu(fileName = "Default Auth Provider", menuName = "Studio-23/AuthSystem/Providers/Default Provider", order = 1)]
-    public class DummyAuthProvider : ProviderBase
+
+    public class DummyAuthAuthProvider : AuthProviderBase
     {
 
         [Header("Debug Config")]
@@ -17,22 +17,18 @@ namespace Studio23.SS2.AuthSystem.Data
         public UserData DummyUser;
 
 
-        private void OnEnable()
-        {
-            _providerType = ProviderTypes.Default;
-        }
-
+     
         public override async UniTask<int> Authenticate()
         {
             await UniTask.WaitForSeconds(SimulatedWaitTimeForLogin,true);
             if(FailAuth)
             {
-                Debug.LogError($"Authentication Failed error code:{customReturnCode}");
+                Debug.LogError($"{name}: Authentication Failed error code:{customReturnCode}");
                 return customReturnCode;
             }
             else
             {
-                Debug.Log("<color=green>Authentication Successful</color>");
+                Debug.Log($"{name}: <color=green>Authentication Successful</color>");
                 return 0;
             }
 

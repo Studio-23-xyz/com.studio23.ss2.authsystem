@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7148e3958442ec04e940aeba1b18bbea, type: 3}
+  m_Script: {fileID: 11500000, guid: 08e3b62af3ee90a46bf81f0f22bc344a, type: 3}
   m_Name: DummyAuthProvider
   m_EditorClassIdentifier: 
-  _providerType: 0
   SimulatedWaitTimeForLogin: 1
   FailAuth: 0
   customReturnCode: -123
