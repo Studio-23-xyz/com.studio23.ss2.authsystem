@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class DummyAuthProviderEditor : MonoBehaviour
 {
-    [MenuItem("Studio-23/AuthSystem/Providers/DummyAuthProvider", false, 10)]
+    [MenuItem("Studio-23/AuthSystem/Providers/DummyAuthAuthProvider", false, 10)]
     static void CreateDefaultProvider()
     {
-        DummyAuthProvider providerSettings = ScriptableObject.CreateInstance<DummyAuthProvider>();
+        DummyAuthAuthProvider authProviderSettings = ScriptableObject.CreateInstance<DummyAuthAuthProvider>();
 
         // Create the resource folder path
         string resourceFolderPath = "Assets/Resources/AuthSystem/Providers";
@@ -20,7 +20,7 @@ public class DummyAuthProviderEditor : MonoBehaviour
 
         // Create the ScriptableObject asset in the resource folder
         string assetPath = resourceFolderPath + "/DummyAuthProvider.asset";
-        AssetDatabase.CreateAsset(providerSettings, assetPath);
+        AssetDatabase.CreateAsset(authProviderSettings, assetPath);
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
 
