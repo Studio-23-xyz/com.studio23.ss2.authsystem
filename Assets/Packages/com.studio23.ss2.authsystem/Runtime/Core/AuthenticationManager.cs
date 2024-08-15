@@ -21,6 +21,7 @@ namespace Studio23.SS2.AuthSystem.Core
         public UnityEvent<int> OnAuthFailed;
 
 
+        private bool _initialized = false;
         private bool _isAuthenticated;
         void Awake()
         {
@@ -33,36 +34,35 @@ namespace Studio23.SS2.AuthSystem.Core
 
         private async void Start()
         {
+            if (!AuthOnStart) return;
+            await Authenticate();
+        }
 
-            _providerFactory.Initialize();
+        /// <summary>
+        /// Auth Method Ensures that this is called first
+        /// </summary>
+        /// <returns></returns>
+        private async UniTask Initialize()
+        {
+            if(_initialized) return;
+            await _providerFactory.Initialize();
             _authProviderBase = _providerFactory.GetProvider();
             if (_authProviderBase == null)
             {
                 Debug.LogWarning("Authentication authProvider is not set. Did you forget to create a provider? Studio-23>AuthSystem>Providers");
                 return;
             }
-
-
-
-            if (!AuthOnStart) return;
-            await Authenticate();
+            _initialized = true;
         }
 
-        public async void AuthenticateFromUI()
-        {
-            await Authenticate();
-        }
+       
 
         /// <summary>
         /// This method will check  user authentication for validating Digital Rights Management for the project
         /// </summary>
         public async UniTask Authenticate()
         {
-            if (_authProviderBase == null)
-            {
-                Debug.LogError("Provider was null. Did you forget to create a authProvider?");
-                return;
-            }
+            await Initialize();
 
             Debug.Log($"{_authProviderBase.name}: Authentication attempted.");
             int result = await _authProviderBase.Authenticate();
@@ -81,6 +81,15 @@ namespace Studio23.SS2.AuthSystem.Core
             }
 
         }
+
+        /// <summary>
+        /// Helper Method for Unity UI calls if needed as it can't call UniTasks
+        /// </summary>
+        public async void AuthenticateFromUI()
+        {
+            await Authenticate();
+        }
+
         /// <summary>
         /// Gets the user related data
         /// </summary>

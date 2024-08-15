@@ -1,3 +1,4 @@
+using Cysharp.Threading.Tasks;
 using Studio23.SS2.AuthSystem.Data;
 using UnityEngine;
 
@@ -7,15 +8,22 @@ namespace Studio23.SS2.AuthSystem.Core
     {
          private AuthProviderBase DummyAuthProvider;
          private AuthProviderBase AuthProvider;
-        public void Initialize()
+        public async UniTask Initialize()
         {
-            LoadFromResources();
+            await LoadFromResources();
         }
 
-        private void LoadFromResources()
+        private async UniTask LoadFromResources()
         {
-            DummyAuthProvider =  Resources.Load<AuthProviderBase>("AuthSystem/Providers/DummyAuthProvider");
-            AuthProvider= Resources.Load<AuthProviderBase>("AuthSystem/Providers/AuthProvider");
+            ResourceRequest DummyAuthProviderResourceRequest =  Resources.LoadAsync<AuthProviderBase>("AuthSystem/Providers/DummyAuthProvider");
+            ResourceRequest AuthProviderResourceRequest= Resources.LoadAsync<AuthProviderBase>("AuthSystem/Providers/AuthProvider");
+
+            await DummyAuthProviderResourceRequest;
+            await AuthProviderResourceRequest;
+
+            DummyAuthProvider=  DummyAuthProviderResourceRequest.asset as AuthProviderBase;
+            AuthProvider = AuthProviderResourceRequest.asset as AuthProviderBase;
+
         }
 
        

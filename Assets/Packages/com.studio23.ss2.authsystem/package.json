@@ -1,6 +1,6 @@
 {
   "name": "com.studio23.ss2.authsystem",
-  "version": "4.0.3",
+  "version": "4.0.4",
   "displayName": "Authentication System",
   "description": "This system will be used to check user authentication for validating proper digital rights management (DRM) of the game.",
   "unity": "2022.3",
@@ -41,5 +41,14 @@
     "name": "Studio 23",
     "email": "contact@studio-23.xyz",
     "url": "https://studio-23.xyz"
-  }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Studio-23-xyz/com.studio23.ss2.authsystem.git"
+  },
+
+  "license": "MIT"
+
+
 }

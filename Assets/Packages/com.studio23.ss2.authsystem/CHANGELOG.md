@@ -1,5 +1,11 @@
 # Changelog
 
+## [v4.0.4] - 2024-08-15
+
+### Updated
+- Now Factory initialization is Async
+- Ensured initialization before any login calls
+
 ## [v4.0.3] - 2024-03-05
 
 ### Updated
