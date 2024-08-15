@@ -29,15 +29,15 @@
       <meta name="loc:changeTheme" content="Change theme">
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
   </head>
-
-  <script type="module" src="./../public/docfx.min.js"></script>
-
-  <script>
-    const theme = localStorage.getItem('theme') || 'auto'
-    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
-  </script>
-
 
   <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
     <header class="bg-body border-bottom">
@@ -77,7 +77,7 @@
 
       <div class="content">
         <div class="actionbar">
-          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
             <i class="bi bi-list"></i>
           </button>
 
@@ -87,14 +87,20 @@
         <article data-uid="">
 <h1 id="changelog">Changelog</h1>
 
-<h2 id="v403---2024-03-05">[v4.0.3] - 2024-03-05</h2>
+<h2 id="v404---2024-08-15">[v4.0.4] - 2024-08-15</h2>
 <h3 id="updated">Updated</h3>
+<ul>
+<li>Now Factory initialization is Async</li>
+<li>Ensured initialization before any login calls</li>
+</ul>
+<h2 id="v403---2024-03-05">[v4.0.3] - 2024-03-05</h2>
+<h3 id="updated-1">Updated</h3>
 <ul>
 <li>Removed Provider Type Entirely</li>
 <li>Rewrote the factory to respect Provider type removal</li>
 </ul>
 <h2 id="v402---2023-1-31">[v4.0.2] - 2023-1-31</h2>
-<h3 id="updated-1">Updated</h3>
+<h3 id="updated-2">Updated</h3>
 <ul>
 <li>Improved Editor Tools</li>
 <li>New Sample Scene</li>
@@ -111,7 +117,7 @@
 <li>DontDestroyUtility.cs: Utility to prevent objects from being destroyed on load.</li>
 <li>New samples</li>
 </ul>
-<h3 id="updated-2">Updated</h3>
+<h3 id="updated-3">Updated</h3>
 <ul>
 <li>AuthenticationManager.cs: Changes to the core authentication management logic.</li>
 <li>ProviderBase.cs: Modifications to the base class for authentication providers.</li>
